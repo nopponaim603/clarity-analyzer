@@ -32,7 +32,7 @@ public class MapControl extends Pane implements ListChangeListener<ObservableEnt
     private EntityIcon[] mapEntities;
 
     public MapControl() {
-        mapImage = new Image(getClass().getResourceAsStream("/images/minimap_686.jpg"));
+        mapImage = new Image(getClass().getResourceAsStream("/images/minimap_723.jpg"));
 
         double scale = getSize() / mapImage.getWidth();
         background = new ImageView(mapImage);
